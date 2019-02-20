@@ -31,6 +31,7 @@ for c, d in zip(new_headlines, new_links):
     ai = "\n" + c + "\n(" + d + ")" + "\n"
     results.append(ai)
 
+# results to LINE
 url = "https://notify-api.line.me/api/notify"
 token = "jee51ogSpbfBqYHHzBBtTypxTXRPlfqQFSVb17mnjaI"
 headers = {"Authorization" : "Bearer "+ token}
